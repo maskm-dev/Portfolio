@@ -1,5 +1,5 @@
 import { Outfit, Geist, Geist_Mono, Noto_Sans_Thai } from "next/font/google";
-import { ThemeProvider } from "./components/Providers/theme-provider";
+import { ThemeProvider } from "../components/Providers/theme-provider";
 import "./globals.css";
 
 // ✅ Google Font
@@ -19,9 +19,9 @@ const geistMono = Geist_Mono({
 });
 
 const notoThai = Noto_Sans_Thai({
-  subsets: ['thai'],
-  weight: ['400', '700'],
-})
+  subsets: ["thai"],
+  weight: ["400", "700"],
+});
 
 export const metadata = {
   title: "Portfolio",

@@ -36,7 +36,7 @@ const Contact = () => {
     <div
       id="contact"
       className="w-full px-[12%] py-10 scroll-mt-20 
-             bg-gradient-to-b 
+             bg-linear-to-b 
              from-transparent via-blue-100/50 to-transparent 
              dark:via-gray-800/50"
     >

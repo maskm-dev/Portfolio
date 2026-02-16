@@ -24,7 +24,7 @@ const Header = () => {
         transition={{ duration: 0.8, delay: 0.3 }}
         className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-light"
       >
-        Hi I'M Mark
+        Hi I'M Mongkol
         <Image src={assets.hand_icon} alt="profile-pic" className="w-6" />
       </motion.h3>
       <motion.h1
@@ -58,7 +58,7 @@ const Header = () => {
           <MoveRight className="transform transition duration-300 group-hover:-rotate-45" />
         </a>
         <a
-          href="/sample-resume.pdf"
+          href="/resume.pdf"
           download
           className="w-max flex items-center justify-center gap-2 
                text-gray-700
